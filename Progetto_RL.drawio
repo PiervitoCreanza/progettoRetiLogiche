@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T14:25:13.383Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="mxPW--sa--5ADQzxg6KT" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-27T17:25:54.586Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="mcH-Bcz5sP3AFwRlX5DQ" version="23.1.7" type="github">
   <diagram name="Pagina-1" id="b1PE5smCa4bWyNITVnYs">
-    <mxGraphModel dx="1497" dy="799" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="676" dy="401" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
         <mxCell id="phwxD9oSpujSFndQEaQb-11" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="1100" y="554" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="phwxD9oSpujSFndQEaQb-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="phwxD9oSpujSFndQEaQb-20" edge="1">
+        <mxCell id="phwxD9oSpujSFndQEaQb-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=none;shadow=0;startFill=1;endFill=1;" parent="1" target="phwxD9oSpujSFndQEaQb-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="674" y="428" as="sourcePoint" />
             <mxPoint x="780" y="296" as="targetPoint" />
@@ -1046,7 +1046,7 @@
             <mxPoint x="2896" y="2184" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SVywFDvdCytqTyJ6id0P-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aJarivERtBI-TfqWU7UF-4" target="SVywFDvdCytqTyJ6id0P-2">
+        <mxCell id="SVywFDvdCytqTyJ6id0P-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="aJarivERtBI-TfqWU7UF-4" target="SVywFDvdCytqTyJ6id0P-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aJarivERtBI-TfqWU7UF-4" value="S1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -1380,10 +1380,10 @@
             <mxPoint x="-3" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SVywFDvdCytqTyJ6id0P-2" value="S2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="SVywFDvdCytqTyJ6id0P-2" value="S2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="2840" y="2271" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="SVywFDvdCytqTyJ6id0P-5" value="&lt;b&gt;Attendo k e add&lt;br&gt;Tutto il resto invariato&lt;br&gt;&lt;/b&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;w_load = 0&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;k_load = 0&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;add_load = 0&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;c_load = 0&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;o_done = 0&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#CCFF99;strokeColor=#d6b656;align=left;spacingLeft=3;" vertex="1" parent="1">
+        <mxCell id="SVywFDvdCytqTyJ6id0P-5" value="&lt;b&gt;Attesa salvataggio k nel registro.&lt;/b&gt;&lt;br&gt;E&#39; necessario attendere uno stato perché il valore di k sia salvato nel registro e pre_done diventi valido." style="whiteSpace=wrap;html=1;fillColor=#CCFF99;strokeColor=#d6b656;align=left;spacingLeft=3;" parent="1" vertex="1">
           <mxGeometry x="2986" y="2271" width="130" height="126" as="geometry" />
         </mxCell>
       </root>
